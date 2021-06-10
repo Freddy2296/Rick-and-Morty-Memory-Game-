@@ -46,3 +46,7 @@ body {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
+
+.front {
+    background: limegreen url('https://cdna.artstation.com/p/assets/images/images/031/538/850/original/petro-kosariekov-portal-gun-rick-and-morty2-2.gif?1603902186') no-repeat center center / contain;
+  }
