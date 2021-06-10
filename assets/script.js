@@ -108,3 +108,48 @@ var cardsArray = [
     });
   };
   
+  grid.addEventListener('click', function (event) {
+  
+    var clicked = event.target;
+  
+    if (clicked.nodeName === 'SECTION' || clicked === previousTarget || clicked.parentNode.classList.contains('selected') || clicked.parentNode.classList.contains('match')) {
+      
+      
+      return;
+
+
+
+      
+    }
+
+    if (count < 2) {
+      count++;
+      //moveCounter();
+      if (count === 1) {
+        firstGuess = clicked.parentNode.dataset.name;
+        console.log(firstGuess);
+        clicked.parentNode.classList.add('selected');
+        moveCounter();
+
+        
+      } else {
+        secondGuess = clicked.parentNode.dataset.name;
+        console.log(secondGuess);
+        clicked.parentNode.classList.add('selected');
+       
+
+      
+      }
+  
+      if (firstGuess && secondGuess) {
+        if (firstGuess === secondGuess) {
+          setTimeout(match, delay);
+        }
+        setTimeout(resetGuesses, delay);
+      }
+      previousTarget = clicked;
+    }
+  });
+
+  
+
