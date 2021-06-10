@@ -59,3 +59,13 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
   }
+
+  .selected {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  
+  .match .front {
+    background:black !important;
+  }
+  
