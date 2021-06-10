@@ -88,3 +88,10 @@ var cardsArray = [
     card.appendChild(front);
     card.appendChild(back);
   });
+
+  var match = function match() {
+    var selected = document.querySelectorAll('.selected');
+    selected.forEach(function (card) {
+      card.classList.add('match');
+    });
+  };
