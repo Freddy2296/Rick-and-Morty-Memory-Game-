@@ -32,3 +32,17 @@ body {
             transform-style: preserve-3d;
     margin: 5px;
   }
+
+  .card,
+.back,
+.front {
+  height: 150px;
+  width: 150px;
+}
+
+.back,
+.front {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
