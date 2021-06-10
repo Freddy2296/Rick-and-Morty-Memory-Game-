@@ -95,3 +95,16 @@ var cardsArray = [
       card.classList.add('match');
     });
   };
+
+  var resetGuesses = function resetGuesses() {
+    firstGuess = '';
+    secondGuess = '';
+    count = 0;
+    previousTarget = null;
+  
+    var selected = document.querySelectorAll('.selected');
+    selected.forEach(function (card) {
+      card.classList.remove('selected');
+    });
+  };
+  
