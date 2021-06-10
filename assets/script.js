@@ -51,3 +51,40 @@ var cardsArray = [
     },
   ]
  
+  var gameGrid = cardsArray.concat(cardsArray).sort(function () {
+    return 0.5 - Math.random();
+  });
+  
+  var firstGuess = '';
+  var secondGuess = '';
+  var count = 0;
+  var previousTarget = null;
+  var delay = 1200;
+  let moves = 0;
+  let counter = document.querySelector(".moves");
+ 
+  var game = document.getElementById('game');
+  var grid = document.createElement('section');
+  grid.setAttribute('class', 'grid');
+  game.appendChild(grid);
+  
+  gameGrid.forEach(function (item) {
+    var name = item.name,
+        img = item.img;
+  
+  
+    var card = document.createElement('div');
+    card.classList.add('card');
+    card.dataset.name = name;
+  
+    var front = document.createElement('div');
+    front.classList.add('front');
+  
+    var back = document.createElement('div');
+    back.classList.add('back');
+    back.style.backgroundImage = 'url(' + img + ')';
+  
+    grid.appendChild(card);
+    card.appendChild(front);
+    card.appendChild(back);
+  });
