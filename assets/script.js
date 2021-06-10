@@ -182,6 +182,20 @@ function startGame (){
        cards[i].classList.remove("show", "open", "match", "disabled");
       }
           
+      // reset moves
+    moves = 0;
+    counter.innerHTML = moves;
+   // reset star rating
+   for (var i= 0; i < stars.length; i++){
+       stars[i].style.color = "#FFD700";
+       stars[i].style.visibility = "visible";
+   }
+   //reset timer
+   var timer = document.querySelector(".timer");
+   timer.innerHTML = "0 mins 0 secs";
+   clearInterval(interval);
+}
+
 
   
 
