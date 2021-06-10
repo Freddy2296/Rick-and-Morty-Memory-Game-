@@ -220,5 +220,18 @@ function congratulations(){
     };
 }
 
+//close icon on modal
+function closeModal(){
+    closeicon.addEventListener("click", function(e){
+        modal.classList.remove("show");
+        startGame();
+    });
+  }
+  //for player to play Again 
+  function playAgain(){
+    modal.classList.remove("show");
+    startGame();
+  }
+
   
 
