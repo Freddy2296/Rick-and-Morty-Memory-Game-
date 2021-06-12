@@ -43,3 +43,40 @@ images.
 * Home Page Wireframe - [View](https://share.bublup.com/ui/landing_page?item_id=001-i-c40153a3-05a3-4489-ac83-f08a0a383e5c)
 * Mobile Wireframe -  [View](https://share.bublup.com/ui/landing_page?item_id=001-i-921aae19-155b-428b-991e-0c6fde63a9b8)
 
+
+
+### Features
+* Responsive on all device sizes
+* Interactive elements
+# Technologies Used
+## Languages Used
+* HTML5
+* CSS3
+* Javascript
+
+
+# Frameworks, Libraries & Programs Used
+* Bootstrap 4.4.1:
+* Bootstrap was used to assist with the responsiveness and styling of the website.
+* Hover.css:
+* Javascript 
+
+## Font Awesome:
+* Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+
+## Git :
+* Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+## GitHub:
+* GitHub is used to store the projects code after being pushed from Git.
+## Photoshop:
+* Photoshop was used to create the logo, resizing images and editing photos for the website.
+## Balsamiq:
+* Balsamiq was used to create the wireframes during the design process.
+# Testing
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+* W3C Markup Validator -
+
+
+* W3C CSS Validator -
