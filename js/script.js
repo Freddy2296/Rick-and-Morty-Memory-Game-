@@ -64,6 +64,7 @@ var cardsArray = [
   var delay = 1200;
   let moves = 0;
   let counter = document.querySelector(".moves");
+  let matchs = 0;
  
   var game = document.getElementById('game');
   var grid = document.createElement('section');
@@ -146,6 +147,7 @@ var cardsArray = [
       if (firstGuess && secondGuess) {
         if (firstGuess === secondGuess) {
           setTimeout(match, delay);
+          matchs ++;
         }
         setTimeout(resetGuesses, delay);
       }
@@ -229,7 +231,8 @@ let modal = document.getElementById("popup1")
  let closeicon = document.querySelector(".close");
 //congratulations when all cards match, show modal and moves, time and rating
 function congratulations(){
-    if (matchedCard.length == 16){
+    //if (matchedCard.length == 12){
+    if (matchs== 12){
         clearInterval(interval);
         finalTime = timer.innerHTML;
     //show congratulations modal

@@ -4,7 +4,13 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-
+@font-face
+{
+font-family: rickymorty;
+src: url(/font/get_schwifty.ttf);
+src: url(/font/get_schwifty.eot);
+src: url(/font/get_schwifty.woff);
+}
 body {
   margin: 20px 0;
   background:black;
@@ -186,4 +192,8 @@ body {
 	color: #ffffff;
 	border-radius: 5px;
 }
-
+.h1 {
+	font-size:12px;
+	font-family: rickymorty;
+	color: aqua;	
+}
