@@ -25,3 +25,21 @@ I just wanted to create a game I can enjoy myself and share with people with who
 * As a Frequent User, I want to check to see if there are any newly added challenges.
 *  As a Frequent User, I want to see if any new characthers have been added.
 *  As a Frequent User, I want to see if any design change have been made.
+
+## Design 
+
+### Colour Scheme
+* The main colors used are Black , Lime green , Aqua
+
+### Typography
+* The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+
+### Imagery
+The Imagery is a gif of a portal form the tv series and I got it from google it's important because it's 
+the background of the card and once you click on it you get the image of the characthers that are also important
+images.
+
+### Wireframes
+* Home Page Wireframe - [View](https://share.bublup.com/ui/landing_page?item_id=001-i-c40153a3-05a3-4489-ac83-f08a0a383e5c)
+* Mobile Wireframe -  [View](https://share.bublup.com/ui/landing_page?item_id=001-i-921aae19-155b-428b-991e-0c6fde63a9b8)
+
