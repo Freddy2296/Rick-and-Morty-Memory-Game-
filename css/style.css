@@ -11,29 +11,29 @@ body {
 }
 
 .grid {
-    max-width: 960px;
-    margin: 0 auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-  }
+  max-width: 960px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
 
-  .card {
-    position: relative;
-    -webkit-transition: all .4s linear;
-    -o-transition: all .4s linear;
-    transition: all .4s linear;
-    -webkit-transform-style: preserve-3d;
-            transform-style: preserve-3d;
-    margin: 5px;
-  }
+.card {
+  position: relative;
+  -webkit-transition: all .4s linear;
+  -o-transition: all .4s linear;
+  transition: all .4s linear;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  margin: 5px;
+}
 
-  .card,
+.card,
 .back,
 .front {
   height: 150px;
@@ -48,28 +48,28 @@ body {
 }
 
 .front {
-    background: limegreen url('https://cdna.artstation.com/p/assets/images/images/031/538/850/original/petro-kosariekov-portal-gun-rick-and-morty2-2.gif?1603902186') no-repeat center center / contain;
-  }
+  background: limegreen url('https://cdna.artstation.com/p/assets/images/images/031/538/850/original/petro-kosariekov-portal-gun-rick-and-morty2-2.gif?1603902186') no-repeat center center / contain;
+}
 
-  .back {
-    -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
-    background-color:black;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
+.back {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  background-color:black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 
-  .selected {
-    -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
-  }
-  
-  .match .front {
-    background:black !important;
-  }
+.selected {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
 
-  /*
+.match .front {
+  background:black !important;
+}
+
+/*
  * Styles for the Score Panel
  */
 
@@ -186,4 +186,3 @@ body {
 	color: #ffffff;
 	border-radius: 5px;
 }
-  

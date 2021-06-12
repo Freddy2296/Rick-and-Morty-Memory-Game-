@@ -51,6 +51,8 @@ var cardsArray = [
     },
   ]
  
+
+
   var gameGrid = cardsArray.concat(cardsArray).sort(function () {
     return 0.5 - Math.random();
   });
@@ -88,14 +90,14 @@ var cardsArray = [
     card.appendChild(front);
     card.appendChild(back);
   });
-
+  
   var match = function match() {
     var selected = document.querySelectorAll('.selected');
     selected.forEach(function (card) {
       card.classList.add('match');
     });
   };
-
+  
   var resetGuesses = function resetGuesses() {
     firstGuess = '';
     secondGuess = '';
@@ -151,7 +153,9 @@ var cardsArray = [
     }
   });
 
-  var second = 0;
+  
+  
+var second = 0;
 var minute = 0; 
 var hour = 0;
 var timer = document.querySelector(".timer");
@@ -171,6 +175,27 @@ function startTimer(){
     },1000);
 }
 
+function moveCounter(){
+  moves++;
+  console.log(moves);
+  counter.innerHTML = moves;
+  //start timer on first move
+  if(moves == 1){
+      second = 0;
+      minute = 0; 
+      hour = 0;
+      startTimer();
+      
+
+
+
+
+
+      
+  }
+}
+
+
 function startGame (){
     cards = shuffle(cards);
     // remove all existing classes from each card
@@ -182,7 +207,7 @@ function startGame (){
        cards[i].classList.remove("show", "open", "match", "disabled");
       }
           
-      // reset moves
+    // reset moves
     moves = 0;
     counter.innerHTML = moves;
    // reset star rating
@@ -222,16 +247,13 @@ function congratulations(){
 
 //close icon on modal
 function closeModal(){
-    closeicon.addEventListener("click", function(e){
-        modal.classList.remove("show");
-        startGame();
-    });
-  }
-  //for player to play Again 
-  function playAgain(){
-    modal.classList.remove("show");
-    startGame();
-  }
-
-  
-
+  closeicon.addEventListener("click", function(e){
+      modal.classList.remove("show");
+      startGame();
+  });
+}
+//for player to play Again 
+function playAgain(){
+  modal.classList.remove("show");
+  startGame();
+}
