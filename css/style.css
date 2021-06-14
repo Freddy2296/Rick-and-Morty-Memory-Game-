@@ -1,6 +1,7 @@
  h1{ 
 	font-family: 'Creepster', cursive;
-
+	color: aqua;
+	text-align: center;
 }
 
 
@@ -11,11 +12,22 @@
           box-sizing: border-box;
 }
 
+p{
+	color: aqua;
+	text-align: center;
+	
+}
 body {
   margin: 20px 0;
   background:black;
+  color: aqua;
+  text-align: center;
 }
 
+div{
+	color: aqua;
+	text-align: center;
+}
 .grid {
   max-width: 960px;
   margin: 0 auto;
@@ -105,9 +117,11 @@ body {
 .fa-star {
 	color: #FFD700;
 }
-.timer {
+div .timer{
 	display: inline-block;
 	margin: 0 1rem;
+	text-align: center;
+	color: aqua;
     
 }
 
