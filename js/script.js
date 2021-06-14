@@ -133,7 +133,6 @@ var cardsArray = [
         console.log(firstGuess);
         clicked.parentNode.classList.add('selected');
         moveCounter();
-
         
       } else {
         secondGuess = clicked.parentNode.dataset.name;
@@ -232,7 +231,7 @@ let modal = document.getElementById("popup1")
 //congratulations when all cards match, show modal and moves, time and rating
 function congratulations(){
     //if (matchedCard.length == 12){
-    if (matchs== 12){
+    if (matchs == 12){
         clearInterval(interval);
         finalTime = timer.innerHTML;
     //show congratulations modal
@@ -245,7 +244,7 @@ function congratulations(){
     document.getElementById("totalTime").innerHTML = finalTime;
     //closeicon on modal
     closeModal();
-    };
+    }
 }
 
 //close icon on modal
