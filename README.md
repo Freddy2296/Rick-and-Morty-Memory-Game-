@@ -135,6 +135,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 * A large amount of testing was done to ensure that all pages were linking correctly.
 * Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 ## Known Bugs
+* know bugs I had are that some of my variables in the javascript come up undefined but work just fine .
+* var card = document.createElement('div');
+    card.classList.add('card');
+    card.dataset.name = name;
+  * for example my var is defined but it comes out undefined in the java validator 
+  * Other then that everything should work just fine.
 
 
 
