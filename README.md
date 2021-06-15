@@ -85,7 +85,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 # Testing User Stories from User Experience (UX) Section
 # First Time Visitor Goals
   i. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the game it self .
-    a. Upon entering the site, I immedately see the green portals and the Header of the game so I know right away it's a memory game.
+    a. Upon entering the site, I immedately see the green portals and the Header of the game so I know right away it's a memory game. [View screenshot](https://share.bublup.com/ui/landing_page?item_id=001-i-56f1a562-265d-4fba-9cfb-55543e3590cd)
 
     b. The main point is made by the title that it is a game and i can start playing right away and as soon I click I can play.
 
@@ -94,10 +94,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 
     find all of them.
-      [View screenshot](https://share.bublup.com/ui/landing_page?item_id=001-i-56f1a562-265d-4fba-9cfb-55543e3590cd)
+      
 
    ii. As a First Time Visitor, I want to be able to easily understand the game and the purpose of it.
-     a. As you enter the site you know right away its a memory game the title itself states that so no worries
+     a. As you enter the site you know right away its a memory game the title itself states that so no worries [View screenshot](https://share.bublup.com/ui/landing_page?item_id=001-i-de2a795a-f3b0-457e-b6aa-f91fb3171278)
 
 
      b. As you start to play the game you start to notice that once you match a card with another one with the same picture  it disappears that's how you know you have solved one part and can proceed to solved the next one.
@@ -105,7 +105,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
      c. As any memory game you know it's simple once you clicked on a card and it reveals which one it is all you have to do 
      is remember where it was and once you find a similar one go back to it and match the cards.
-     [View screenshot](https://share.bublup.com/ui/landing_page?item_id=001-i-de2a795a-f3b0-457e-b6aa-f91fb3171278)
+    
      
      iii. As a First Time Visitor, I want to be to win and know how to make it easier for next time 
         a. As you continue to play game you start to understand it more and learn the were most of the same card are 
@@ -113,7 +113,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
         b. It gets simple once you remember were each card is but after you win the cards get reshuffle to so you get challenged.
 
-        
+
         c. Winning gets easier the more you play and learn the game so winning will be more likely if you continue playing
 
 # Returning Visitor Goals
