@@ -162,9 +162,9 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 * Open Git Bash
 * Change the current working directory to the location where you want the cloned directory to be made.
 * Type git clone, and then paste the URL you copied in Step 3.
-$ git clone  https://freddy2296.github.io/The-Process-2/.
+$ git clone   [View]( https://freddy2296.github.io/Rick-and-Morty-Memory-Game-/)
 * Press Enter. Your local clone will be created.
-$ git clone https://freddy2296.github.io/The-Process-2/.
+$ git clone [View]( https://freddy2296.github.io/Rick-and-Morty-Memory-Game-/)
 > Cloning into `CI-Clone`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
