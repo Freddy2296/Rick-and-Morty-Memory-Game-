@@ -80,6 +80,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 
 * W3C CSS Validator -  [View](http://jigsaw.w3.org/css-validator/validator?uri=+https%3A%2F%2Ffreddy2296.github.io%2FRick-and-Morty-Memory-Game-%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=)
+
+* JavaScript Validator -  [View](https://share.bublup.com/ui/landing_page?item_id=001-i-3f71d3c2-8641-461b-96c3-eb23df54ef99)
 # Testing User Stories from User Experience (UX) Section
 # First Time Visitor Goals
   i. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the game it self .
